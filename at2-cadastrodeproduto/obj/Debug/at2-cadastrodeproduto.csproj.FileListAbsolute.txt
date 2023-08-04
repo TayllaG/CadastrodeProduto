@@ -1,0 +1,11 @@
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\obj\Debug\at2-cadastrodeproduto.csproj.AssemblyReference.cache
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\obj\Debug\at2-cadastrodeproduto.csproj.SuggestedBindingRedirects.cache
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\obj\Debug\at2_cadastrodeproduto.Form1.resources
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\obj\Debug\at2_cadastrodeproduto.Properties.Resources.resources
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\obj\Debug\at2-cadastrodeproduto.csproj.GenerateResource.cache
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\obj\Debug\at2-cadastrodeproduto.csproj.CoreCompileInputs.cache
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\bin\Debug\at2-cadastrodeproduto.exe.config
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\bin\Debug\at2-cadastrodeproduto.exe
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\bin\Debug\at2-cadastrodeproduto.pdb
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\obj\Debug\at2-cadastrodeproduto.exe
+C:\Users\tayll\source\repos\at2-cadastrodeproduto\at2-cadastrodeproduto\obj\Debug\at2-cadastrodeproduto.pdb
