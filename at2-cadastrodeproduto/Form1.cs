@@ -31,7 +31,7 @@ namespace at2_cadastrodeproduto
             tx_descricao.Text = "";
             tx_aquisicao.Text = "";
             tx_porcentagem.Text = "";
-            tx_valorVenda.Text = "";
+            lbl_valorVenda.Text = "";
 
         }
 
@@ -47,18 +47,18 @@ namespace at2_cadastrodeproduto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string codigo = Convert.ToString(tx_codigo.Text);
+            int codigo = Convert.ToInt32(tx_codigo.Text);
             string descricao = Convert.ToString(tx_descricao.Text);
             double aquisicao = Convert.ToDouble(tx_aquisicao.Text);
             double porcentagem = Convert.ToDouble(tx_porcentagem.Text);
-            double valorVenda = Convert.ToDouble(tx_valorVenda.Text);
+
 
 
            
 
-            Produto prod = new Produto(codigo, descricao, aquisicao, porcentagem, valorVenda);
+            Produto prod = new Produto(codigo, descricao, aquisicao, porcentagem);
 
-            tx_valorVenda.Text = prod.Calculo();
+            lbl_valorVenda.Text = prod.Calculo(aquisicao,porcentagem).ToString("C2");
 
         }
     }

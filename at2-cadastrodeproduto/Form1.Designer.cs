@@ -41,7 +41,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tx_valorVenda = new System.Windows.Forms.TextBox();
+            this.lbl_valorVenda = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -161,19 +161,21 @@
             this.dataGridView1.Size = new System.Drawing.Size(518, 173);
             this.dataGridView1.TabIndex = 13;
             // 
-            // tx_valorVenda
+            // lbl_valorVenda
             // 
-            this.tx_valorVenda.Location = new System.Drawing.Point(191, 239);
-            this.tx_valorVenda.Name = "tx_valorVenda";
-            this.tx_valorVenda.Size = new System.Drawing.Size(317, 26);
-            this.tx_valorVenda.TabIndex = 14;
+            this.lbl_valorVenda.AutoSize = true;
+            this.lbl_valorVenda.Location = new System.Drawing.Point(191, 246);
+            this.lbl_valorVenda.Name = "lbl_valorVenda";
+            this.lbl_valorVenda.Size = new System.Drawing.Size(29, 20);
+            this.lbl_valorVenda.TabIndex = 14;
+            this.lbl_valorVenda.Text = ".....";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(542, 557);
-            this.Controls.Add(this.tx_valorVenda);
+            this.Controls.Add(this.lbl_valorVenda);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.tx_porcentagem);
             this.Controls.Add(this.tx_aquisicao);
@@ -209,7 +211,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox tx_valorVenda;
+        private System.Windows.Forms.Label lbl_valorVenda;
     }
 }
 
